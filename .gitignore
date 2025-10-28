@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# DEM and large data files
+*.tif
+*.tiff
+*.dem
+*.hgt
+data/dem/*
+!data/dem/.gitkeep
+
+# Output files
+output/kml/*.kml
+output/maps/*.html
+output/maps/*.png
+!output/kml/.gitkeep
+!output/maps/.gitkeep
+
+# Keep folder structure
+!.gitkeep
